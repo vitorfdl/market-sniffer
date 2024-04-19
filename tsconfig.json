@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "commonjs",
+    "lib": ["ES2023", "DOM"],
+    "allowJs": true,
+    "outDir": "./build",
+    "noImplicitAny": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "rootDir": "./src",
+    "removeComments": false,
+    "strictNullChecks": true,
+    "inlineSourceMap": true,
+  },
+  "include": ["src/**/*"],
+  "rules": {
+    "no-unused-declaration": true
+  },
+  "ts-node": {
+    "transpileOnly": true
+  },
+}
