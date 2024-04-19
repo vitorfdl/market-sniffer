@@ -1,7 +1,7 @@
 import { Account, Device, Utils } from "@tago-io/sdk";
-import { runML } from "./src/services/mercado-livre";
-import { runTerabyte } from "./src/services/terabyte";
-import { filterResults } from "./src/lib/filter";
+import { runML } from "./services/mercado-livre";
+import { runTerabyte } from "./services/terabyte";
+import { filterResults } from "./lib/filter";
 const deviceID = "DEVICE-ID";
 const account = new Account({ token: "Your-Profile-Token" });
 
